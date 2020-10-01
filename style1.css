@@ -1,0 +1,202 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1.2em;
+
+}
+
+p {
+	padding: 0 0 20px 0;
+	line-height: 1.7em;
+}
+
+input[type="text"], input[type="password"],  input[type="search"] {
+	color: #5d5d5d;
+	width: 60%;
+	padding: 4px;
+}
+
+input, textarea {
+	outline: none;
+	border: none;
+	border: solid 1px #f2f2f2;
+}
+
+
+
+a, a:hover {
+	outline: none;
+	text-decoration: none;
+	color: #6161ff;
+}
+
+ul {
+	margin: 2px 0 22px 17px; 
+}
+
+ul li {
+	margin: 0 0 6px 0;
+	padding: 0 0 4px 5px;
+	line-height: 1.5em;
+}
+
+h3 {
+	font:normal 90% 'Century Gothic', arial;
+	margin: 0 0 15px 0;
+}
+
+hr {
+	border: solid 1px #212121;
+	border-radius: 2px;
+}
+
+.header {
+    background-color: #212121;
+	height: 127px;
+	font-size: 1.1em;
+	margin-bottom: 20px;
+}
+
+.back {
+	background:linear-gradient(-55deg,  #4B71F7, #F74B76, #F74B76,#FFF43D);
+	height: 7600px;
+	width: 1864px;
+	padding-bottom: 1px;
+
+}
+
+.main, .logo, .menubar, .site_content, .footer {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	width: 800px;
+	padding-top: 10px;
+	padding-bottom: 23px;
+}
+
+.logo h1, .logo h2 {
+	font: normal 200% 'Impact', arial, sans-serif;
+	margin: 0 0 0 9px;
+}
+
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+	padding: 15px 0 0 0;
+	color: #fff;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+}
+
+
+.logo_text h2 {
+	font-size: 0.9em;
+	padding: 4px 0 0 0;
+	color: #999;
+}
+
+.menubar {
+	width: 980px;
+	height: 66px;
+	padding-bottom: 20px;
+}
+
+ul.menu ul {
+  overflow: hidden;
+  padding: 0;
+}
+
+ul.menu li {
+  float: left;
+  list-style: none;
+}
+
+ul.menu li a {
+  display: block;
+  margin-right: 20px;
+  padding: 20px 30px;
+  border: solid 2px #f2f2f2;
+  background-color: #212121;
+  color: #fff;
+  border-radius: 5px;
+
+
+}
+
+ul.menu li.select a {
+	color: #6161ff;
+}
+
+ul.menu li a:hover {
+	color: #7018FF;	
+}
+
+.imga {
+	padding-left: 670px;
+	float: left;
+	padding-bottom: 0px;
+}
+
+.imga2 {
+	float: left;
+	margin-right: 10px;
+}
+
+.information {
+	margin-left: 465px;
+	margin-bottom: 100px;
+	margin-right: 465px;
+}
+
+.infotext {
+	margin-bottom: 689px;
+	padding-top: 10px;
+}
+
+.infotext_1 {
+	margin-bottom: 835px;
+	padding-top: 10px;	
+}
+
+
+.img1 {
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+.img2 {
+	margin-bottom: 20px;
+}
+
+.block4 {
+	margin-bottom: 800px;
+}
+
+.block5 {
+	margin-bottom: 830px;
+}
+
+.block6 {
+	margin-bottom: 1670px;
+}
+
+.footer {
+	float: right;
+	width: 100%;
+	height: 50px;
+	background-color: #212121;
+	padding: 28px 0 5px 0;
+	text-align: center;
+	margin-right: 0px;
+	margin-left: 0px;
+	min-width: 900px;
+	margin-top: 300px;
+}
+
+.footer a {
+	text-decoration: none;
+}
